@@ -1,0 +1,3 @@
+Added the selected users to Security Group Named IT Team group
+
+I chose Security Group for IT Team for access management and permissions.
