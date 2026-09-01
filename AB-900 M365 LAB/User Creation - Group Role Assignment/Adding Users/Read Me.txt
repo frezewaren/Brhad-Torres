@@ -1,5 +1,0 @@
-Adding users using step by step
-
-i used manual creation of users for few users
-
-Although automation can also be use
