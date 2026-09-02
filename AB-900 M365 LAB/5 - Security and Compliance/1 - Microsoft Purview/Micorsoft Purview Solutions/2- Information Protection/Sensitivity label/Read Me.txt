@@ -1,0 +1,19 @@
+/**Sensitivity label**/
+
+It is use for protecting files to unauthorize changes.
+
+Label Details 
+
+Scope is where we can use the label, this by default "Files and data assets" and "Emails"
+
+Items is where the label will be applied. Watermarks and labels
+
+	Access Control - I choose "Assign Permission now" "User access t content expires to never" "Allow offline access to always"
+
+	Content Marking - I enabled it for watermarks 
+	
+	Auto-labeling for files and emails - I leave it to off for now
+	
+Group and Sites	
+Define protection settings for groups and sites - it is applied to group teams and sites. Don't apply directly to files stored
+

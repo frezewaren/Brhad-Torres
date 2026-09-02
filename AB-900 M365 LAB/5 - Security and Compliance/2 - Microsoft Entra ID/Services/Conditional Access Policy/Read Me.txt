@@ -1,0 +1,28 @@
+Conditional Access Policy
+
+I named it managed app policy
+
+For the users we only select one user for now, excluding our own user to prevent locking out
+
+For Target Resources, I choose "Resources (Formerly cloud apps)" and Include to None
+
+For Network I choose "Any network or location" for Include to force the MFA once the user try login outside organization location
+and "All trusted networks and locations" in Exclude for office premises
+
+For Conditions,
+	Device platforms: include > Any device 
+	Locations	: same settings under Network
+	Client Apps	: Yes to Modern authentication clients
+	Filter devices	: Not configured
+	Authentication flows	: Not configured
+
+For Access Control under Grant I choose Grant Access then "Require multifactor authentication"
+For Multiple control I choose "Require one of the selected controls"
+This core policy ensures everyone in the company uses multi-factor authentication
+For stricter data protection we can also select "Require multifactor authentication" and "Require device to be marked as compliant(device must be registered in intune)" and select "Require all the selected controls"
+
+For Session I Choose "Use Conditional Access App Control" to block downloads to personal devices and checked "Sign-in frequency" for every 3 hours
+
+I will enable policy on Report-only for the purpose of creating a DLP and Information protection in purview
+
+As Microsoft have a security default standards running

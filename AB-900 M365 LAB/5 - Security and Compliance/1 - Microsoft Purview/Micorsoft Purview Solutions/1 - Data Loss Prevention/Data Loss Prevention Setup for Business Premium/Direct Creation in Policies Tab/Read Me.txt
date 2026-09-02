@@ -1,0 +1,33 @@
+/**As for the Business Premium Trial License**/
+
+This option configures protections for files and data living natively within your company's controlled ecosystem.
+
+It covers Email (Exchange), cloud storage (SharePoint, OneDrive), chat (Teams), and the local files saved on your enrolled laptops and phones.
+
+This utilizes Microsoft Defender for Business and Microsoft Intune, which are the exact core security features included in our Business Premium trial license. It will let you test blocking users from accidentally sharing credit cards, PII, or internal documents outside the company
+
+
+In the template or custom policy I choose Japan for location
+For categories I chose Enhanced and for regulations I chose PII
+For the Name of the policy and description, I just leave it default as its define clearly what the policy do.
+
+Admin Units, as there no more option available, it is set to Full Directory which means it will applied tenant-wide which is just good For business trial, it will only cover for limited number of users and in my case just 1 user only
+
+ 
+For Locations the default is Exchange email, SharePoint sites and OneDrive accounts
+
+Policy Settings the default is Japan template for what I chose previously
+	
+	Info to protec		: Sensitive info types displayed Japan template - but we can add more sensitivity type in edit 
+	Protection actions	: This option is where we know what happen to data(file, email or copilot conversation) when it mtaches the 						sensitive data condition. Under DLP sends alert to a group once DLP is match. I chose IT team for 						example.
+	Customize access and override settings : I choose "Restrict access or encrypt the content in Microsoft 365 locations" and "block only 							poeple outside your organization" and "justification" "false positive" for override
+
+Policy Mode I choose "Run the policy in simulation mode" and checked the "Show policy tips whilein simulation mode"
+It generates hidden logs and triggers admin alerts. Enabled "Policy Tips," the users will see a helpful warning banner inside Outlook or Office apps, but they can still send or share the data
+This way I can test and gather information about the policy before deploying it live
+
+Policy Listed and Simulation view
+	In the Simulation window before turning the policy on, We can review, edit and delete the policy in this window
+
+
+
