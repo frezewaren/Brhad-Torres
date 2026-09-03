@@ -1,0 +1,16 @@
+/**SharePoint**/
+
+Sites > Active site
+
+I created a simple website using Microsoft template to explore the SharePoint
+So I will be familiar with features and policies
+This will help me troubleshoot faster and gain experience in managing SharePoint
+For this sample I use IT help desk template
+
+I provided the name and description and added Group Owner "Brhad Torres" tenant
+Language "English" Time "UTC+8 Singapore" and Privacy settings "Private" so only members can access the site
+And finally Adding site owners and members
+
+As We observe from the list, there are other sites listed too, those are automatically created when making a teams and m365 group in the Microsoft Admin Portal
+
+We created one for so we can experience the manual creation using template 

@@ -1,0 +1,29 @@
+/**SharePoint**/
+
+It prevents site sprawl (hundreds of abandoned, empty sites), keeps the data storage footprint clean, and protects company data without requiring manual audits.
+
+Policies > Site Lifecycle Management
+
+	Inactive policy
+	
+		Using this Policy surely help administrator to automate task site management
+
+		Automates Cleanups: Deletes or archives old, forgotten sites without manual IT work.
+		Saves Storage Costs: Frees up your limited pooled SharePoint storage capacity.
+		Reduces Security Risks: Removes stale sites that still contain active guest sharing links.
+		Ensures Data Ownership: Identifies orphaned sites where the original creator has left the company.
+
+		Scope I chose all sites
+
+		Configure policy 
+
+			I set 3 months before the sites set to inactive from the last activity
+
+			Skipped the exclude site owner's or admins to receiving request
+
+			I selected the Site owners and Site admins to certify the sites to keep it active
+
+			Selected "Take an enforcement" and chose enforcement type to "Read-only access" to view only but no edit
+			On the finish step we name the policy to "Inactive Sites Policy", added description of the policy and 				Policy mode to "Simulation" for the generate report not notification
+
+		

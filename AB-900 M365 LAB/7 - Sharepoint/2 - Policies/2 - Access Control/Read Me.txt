@@ -1,0 +1,33 @@
+/**SharePoint**/
+
+Policies > Access Control
+
+Access Control 
+
+	I chose "Allow full access from desktop apps, mobile apps and the web" for this example to avoid being kicked out of the 	SharePoint Admin Portal because I use unmanaged device "Personal Laptop"
+
+Idle session sign-out
+
+	 I still selected toggle off here for unmanaged devices
+
+Network Location
+
+	I chose toggle off too here because you need to include your IP address here so I don't lock myself out
+	I am accessing this to my different devices so i have flexibility working on the documentation
+
+	In the screenshot I showed what it looks like when it is toggled On "Enter IP addresses or range" We can enter the IP 	address of the device, Public IP to be specific
+
+Apps that don't use modern authentication
+
+	This is for legacy devices and application - Outdated Microsoft Office Versions(Office 2007, 2010)
+	
+
+Site-level access restriction
+	
+	For SharePoint Administrator to manage the access site
+
+OneDrive access restriction
+	
+	I chose not to restrict OneDrive access
+	If I select restrict OneDrive access only on those specific security group will be allowed to access the OneDrive
+ 

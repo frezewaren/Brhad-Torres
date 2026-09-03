@@ -1,0 +1,9 @@
+/**SharePoint Admin Center**/
+
+Policies>Sharing 
+
+Content can be shared with SharePoint and OneDrive set to "Guest must sign in or provide a verification code"
+Then I added Security group to manage the sharing externally
+
+For Files and Folders i choose "Only people in your organization"
+For Permission of sharing links i choose "view" for the meantime
