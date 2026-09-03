@@ -1,0 +1,21 @@
+/**SharePoint**/
+
+Site Ownership Policies > automates governance by detecting and remediating orphaned or under-owned sites within Microsoft 365
+
+	Set Policy Scope
+
+		I selected "sites at scale" and selected all the sites templates for ownership status check
+		Also included site with retention policies and retention holds
+
+	
+	Configure Policy
+		
+		I checked "Site owners" and "Site admins" minimum of two to be safe
+		I checked "Manager of previous site owner or admin" and "Active site members" set to two active members to be notified
+		And for the actions to be taken is "Read-only access"
+	
+	Finish
+
+		Named "Site Ownership Policy" and added description to recognize quickly what the policy does
+		Set to Simulation mode to observe and test the policy first
+		
